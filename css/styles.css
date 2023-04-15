@@ -9,7 +9,7 @@
   --color-cloud: #f4f4fd;
   --color-navy-blue-modal: #2e2f42;
   --color-grey: #2e2f42;
-  --color-icon: #afb1b8;
+  --color-icon: #8e8f99;
 
   /* Header background, team card background */
   --color-white: #ffffff;
@@ -494,16 +494,12 @@ h4 {
 */
 
 .footer-container {
-
- padding-left: 0;
+  padding-left: 0;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-white);
-
-
-  outline: 1px dashed tomato;
 }
 
 .footer-logo {
@@ -539,24 +535,21 @@ h4 {
 
 .footcont {
   display: flex;
-  
+  align-items: baseline;
+
   gap: 120px;
 
   margin: 0 auto;
 }
 
-.social-container {
-  outline: 1px dashed red;
-}
 .social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  
-  margin-bottom: 16px;
 
+  margin-bottom: 16px;
 }
 
 .icon-list-footer {
@@ -565,7 +558,6 @@ h4 {
 }
 
 .icon-media-footer {
-  
   width: 40px;
   height: 40px;
 }
